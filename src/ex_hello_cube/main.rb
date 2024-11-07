@@ -25,7 +25,7 @@ module Examples
 
     unless file_loaded?(__FILE__)
       menu = UI.menu('Extensions')
-      menu.add_item('Create Cube Example') {
+      menu.add_item('Create Cube') {
         self.create_cube
       }
       file_loaded(__FILE__)
