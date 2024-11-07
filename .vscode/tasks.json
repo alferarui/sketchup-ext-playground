@@ -15,7 +15,7 @@
           "args": [
             "C:\\\\SketchUp${input:sketchupVersion}\\\\SketchUp.exe",
             "-rdebug",
-            "ide port=7000"
+            "ide port=6888"
           ],
           "command": "wine",
           "options": {
