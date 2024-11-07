@@ -1,5 +1,6 @@
 require_paths:
-- "C:/Program Files/SketchUp/SketchUp 2022/Tools"
+- /home/devlin/.wine-sketchup-2017/drive_c/SketchUp2017
+- /home/devlin/.wine-sketchup-2017/drive_c/SketchUp2017/Tools
 - src
 
 require:
@@ -7,3 +8,8 @@ require:
 
 reporters:
 - rubocop
+
+# Exclude files that doesn't need to be parsed. Avoids noise and improve performance.
+exclude:
+- /build/**/*
+- /ThirdParty/**/*

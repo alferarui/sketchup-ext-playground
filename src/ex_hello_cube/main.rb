@@ -19,11 +19,12 @@ module Examples
       ]
       face = entities.add_face(points)
       face.pushpull(-1.m)
+
       model.commit_operation
     end
 
     unless file_loaded?(__FILE__)
-      menu = UI.menu('Plugins')
+      menu = UI.menu('Extensions')
       menu.add_item('Create Cube Example') {
         self.create_cube
       }

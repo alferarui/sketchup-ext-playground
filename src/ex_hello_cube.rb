@@ -15,6 +15,7 @@ module Examples # TODO: Change module name to fit the project.
       ex.creator     = 'SketchUp'
       Sketchup.register_extension(ex, true)
       file_loaded(__FILE__)
+      puts "Hello Cube Extension Loaded"
     end
 
   end # module HelloCube
